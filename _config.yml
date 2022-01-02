@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Patrick J. Crawford"
 description              : "The personal webpage of Patrick Crawford, containing a record of research and a CV."
-url                      : "https://patrickjcrawford.github.io/"
+url                      : #"https://patrickjcrawford.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "patrickjcrawford/patrickjcrawford.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
