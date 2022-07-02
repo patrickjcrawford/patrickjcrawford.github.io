@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true #false (default)
 search                   : true
 search_full_content      : true
 search_provider          : # lunr (default), algolia, google
@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "Patrick J. Crawford"
   avatar           : "/assets/images/Headshot.jpg"
-  bio              : "I'm an economics gradutate student at George Mason University. I am also a Graduate Lecturer teaching International Economic Policy."
+  bio              : "I'm a PhD student and Graduate Lecturer at George Mason University."
   location         : "Fairfax, VA"
   links:
     - label: "Email"
