@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "Patrick J. Crawford"
   avatar           : "/assets/images/Headshot.jpg"
-  bio              : "I'm a PhD student and Graduate Lecturer at George Mason University."
+  bio              : "PhD student and Graduate Lecturer at George Mason University."
   location         : "Fairfax, VA"
   links:
     - label: "Email"
