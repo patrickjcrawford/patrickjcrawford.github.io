@@ -485,10 +485,10 @@ zh-HK:
 # German / Deutsch
 # ----------------
 de: &DEFAULT_DE
-  skip_links                 :
-  skip_primary_nav           :
-  skip_content               :
-  skip_footer                :
+  skip_links                 : "Überspringe Links"
+  skip_primary_nav           : "Zur Hauptnavigation springen"
+  skip_content               : "Zum Inhalt springen"
+  skip_footer                : "Zum Footer springen"
   page                       : "Seite"
   pagination_previous        : "Vorherige"
   pagination_next            : "Nächste"
@@ -515,6 +515,7 @@ de: &DEFAULT_DE
   website_label              : "Webseite"
   email_label                : "E-Mail"
   recent_posts               : "Aktuelle Beiträge"
+  about_me                   : "Über mich"
   undefined_wpm              : "Undefinierter Parameter words_per_minute in _config.yml"
   comment_form_info          : "Ihre E-Mail Adresse wird nicht veröffentlicht. Benötigte Felder sind markiert"
   comment_form_comment_label : "Kommentar"
@@ -527,10 +528,11 @@ de: &DEFAULT_DE
   comment_success_msg        : "Danke für Ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er geprüft wurde."
   comment_error_msg          : "Entschuldigung, es gab einen Fehler. Bitte füllen Sie alle benötigten Felder aus und versuchen Sie es erneut."
   loading_label              : "Lade..."
-  search_label_text          :
+  search_label_text          : "Geben Sie Ihren Suchbegriff ein..."
   search_placeholder_text    : "Suchbegriff eingeben..."
-  search_algolia_no_results  :
+  search_algolia_no_results  : "Keine Ergebnisse"
   results_found              : "Ergebnis(se) gefunden"
+  
 de-DE:
   <<: *DEFAULT_DE
 de-AT:
