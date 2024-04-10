@@ -21,5 +21,20 @@ layout: default
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
-  <p>The opportunity cost of trying again is very low though!</p>
+  <p id="randomMessage"></p>
+
+    <script>
+        var messages = [
+            "Oops! This page has been abducted by aliens.",
+            "We couldn't find what you were looking for.",
+            "Sorry, this page is on vacation.",
+            "This page just got lost in thought.",
+            "Looks like this page took the wrong turn."
+        ];
+
+        window.onload = function() {
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            document.getElementById('randomMessage').textContent = messages[randomIndex];
+        };
+    </script>
 </div>
