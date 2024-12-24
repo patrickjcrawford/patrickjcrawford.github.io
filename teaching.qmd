@@ -1,0 +1,43 @@
+---
+title: "Teaching"
+draft: true
+---
+
+::: {.callout-caution appearance="minimal"}
+## Work in progress
+
+Check back later
+:::
+
+## Course 1
+
+[Fall 202X]{.aside}
+
+## Course 2
+
+[Spring 202X]{.aside}
+
+```{r}
+#| echo: false
+options(tidyverse.quiet = TRUE)
+```
+
+```{r}
+#| warnings: false
+#| error: false
+
+library(tidyverse)
+library(knitr)
+
+x = 1 + 1
+
+df = tibble(
+  a = c(1, 2, 3, 4, 5), 
+  b = c("a", "b", "c", "", "z")
+  )
+
+df2 <- df %>% 
+  mutate(c = a * x)
+
+knitr::kable(df2, align = "c")
+```

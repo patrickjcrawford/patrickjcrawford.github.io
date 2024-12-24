@@ -1,0 +1,72 @@
+project:
+  type: website
+  output-dir: docs
+  resources: 
+    - files/CV-Crawford.pdf
+
+editor: visual
+
+brand: _brand.yml
+
+highlight-style: breeze
+
+title-block-style: none
+
+date: last-modified
+date-format: long
+filters:
+  - get_monthyear.lua
+
+format:
+  html:
+    #page-layout: full
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+#      margin-width: 300px
+      gutter-width: 2rem
+    code-copy: hover
+    theme: 
+      light: [morph, brand, styles.scss] 
+#      dark: 
+    css: styles.css
+    toc: true
+    self-contained: false
+    #fontsize: 1.1rem
+    reference-location: margin
+
+website:
+  title: "Patrick Crawford"
+  favicon: images/favicon.png #favicon.ico
+  twitter-card: true
+  open-graph: true
+  site-url: https://patrickjcrawford.github.io/
+  search:
+    location: sidebar
+    type: textbox
+  navbar:
+    right:
+      - icon: twitter
+        href: https://bsky.app/profile/pjcrawford.bsky.social
+      - icon: twitter-x
+        href: https://twitter.com/_pcrawford
+      - icon: github
+        href: https://github.com/patrickjcrawford
+      - icon: envelope-at
+        href: mailto:pcrawfo6@gmu.edu
+    footer: "Testing"
+  sidebar:
+    fontsize: 2rem
+    style: "floating"
+    background: secondary
+    logo: "images/Headshot.png"
+    contents:
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "CV"
+        file: "files/CV - Crawford.pdf"
+  page-footer: |
+    Site last modified {{< meta month >}} {{< meta year >}} — © Patrick Crawford
+  

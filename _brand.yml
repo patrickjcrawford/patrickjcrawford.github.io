@@ -1,0 +1,101 @@
+meta:
+  name:
+    full: Patrick Crawford
+    short: PC
+#  link:
+    home: https://patrickjcrawford.github.io/
+#    docs: 
+    github: https://github.com/patrickjcrawford
+    bluesky: https://bsky.app/profile/pjcrawford.bsky.social
+#    twitter: 
+#    linkedin: 
+#    facebook: 
+#  founded: 
+
+logo: # Use .png or .svg
+  images:
+    icon:
+      path: Headshot.jpg
+      alt: "Company icon with abstract shapes"
+#    header:
+#      path: logos/header-logo.png
+#      alt: "Company name with logo"
+#    header-white:
+#      path: logos/header-logo-white.png
+#      alt: "Company name with logo in white"
+#    full:
+#      path: logos/full-logo.svg
+#      alt: "Full company logo with tagline"
+#  small: icon # favicons or mobile app icons
+#  medium: # website headers or navigation bars
+#    light: header
+#    dark: header-white
+#  large: full # title slides or marketing materials
+
+color:
+  palette:
+    # Main
+    eerie-black: "#1A1A1A"          # black
+    mint-cream: "#F7FFF7"           # white
+    
+    dark-green: "#16302B"           # dark green
+    cambridge-blue: "#689689"       # medium green
+    ash-grey: "#B0CBC2"             # light green
+    
+    choc-cosmos: "#590925"          # dark pink/red
+    quinacridone-magenta: "#923257" # medium pink/red
+    china-rose: "#9B4C69"           # light pink/red
+    
+    # Accent
+    pumpkin: "#FF6F20"              # orange
+    gold: "#C8AD55"                 # gold
+    naples-yellow: "#FFE66D"        # yellow
+    khaki: "#C4B4A4"                # tan
+
+  foreground: eerie-black
+  # The main text color. Typically will be close to black and must have high contrast with the background color.
+  background: mint-cream
+  # The main background color. Tyically will be close to white and must have high contrast with the foreground color.
+  primary: dark-green #quinacridone-magenta 
+  # The primary accent color, used for hyperlinks, active states, and primary action buttons.
+  secondary: cambridge-blue 
+  # The secondary accent color, often used for lighter text or disabled states.
+  tertiary: ash-grey
+  # The tertiary accent color, used for hover states, accents, and wells.
+  success: naples-yellow
+  # The color used for positive or successful actions and information.
+  info: khaki
+  # The color used for neutral or informational actions and information.
+  warning: gold
+  # The color used for warning or cautionary actions and information.
+  danger: pumpkin
+  # The color used for errors, dangerous actions, or negative information.
+  light: china-rose
+  # A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
+  dark: choc-cosmos
+  # A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
+
+typography:
+  fonts:
+    - family: Rubik
+      source: google
+    - family: Roboto
+      source: google
+    - family: Roboto Mono
+      source: google
+    - family: Roboto Slab
+      source: google
+    - family: Lexend Exa
+      source: google
+
+  base: Roboto Slab
+  headings:
+    family: Roboto
+    weight: bold
+  monospace:
+    family: Roboto Mono
+    background-color: "#d7e5e0" #lighter shade of ash-grey
+  link:
+    color: choc-cosmos
+
+# Visit https://posit-dev.github.io/brand-yml/brand/ for full element options

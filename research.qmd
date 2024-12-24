@@ -1,0 +1,27 @@
+---
+title: "Research"
+---
+
+This is list of papers or projects I have or I am currently working on. Please reach out if you have any questions or requests and I will try my best to accommodate.
+
+## Publications
+
+::: {.callout-caution appearance="minimal"}
+## Work in progress
+
+Check back later
+:::
+
+## In Progress
+
+### Determinants of Revolt in Medieval Germany
+
+Revolt was endemic in the later half of the middle ages across Europe. Following the Black Death, we can see an increase in revolutionary behavior over time. So far this paper find that poor harvests and reoccurences of plague combine to prime many areas for political unrest.
+
+[Draft](files/draft.pdf){.btn .btn-outline-warning} [Code](https://github.com/){.btn .btn-outline-warning}
+
+### Public Opinion and the US Civil War
+
+This is a sketch of an idea. Lincoln issuing the Emancipation Proclamation should shift public opinion in the north toward abolitionism rather than preservation of the Union. [Currently drafting.]{.aside}
+
+[Draft](files/draft.pdf){.btn .btn-outline-warning} [Code](https://github.com/){.btn .btn-outline-warning}

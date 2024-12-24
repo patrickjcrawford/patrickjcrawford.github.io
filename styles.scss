@@ -1,0 +1,96 @@
+/*-- scss:color --*/
+$eerie-black: #1A1A1A;
+$mint-cream: #F7FFF7;
+$dark-green: #16302B;
+$cambridge-blue: #689689;
+$ash-grey: #B0CBC2;
+$choc-cosmos: #590925;
+$quinacridone-magenta: #923257;
+$china-rose: #9B4C69;
+$pumpkin: #FF6F20;
+$gold: #C8AD55;
+$naples-yellow: #FFE66D;
+$khaki: #C4B4A4;
+
+/*-- scss:defaults --*/
+$body-text-align: justify !default;
+$code-block-bg-alpha: .1;
+$footer-bg: $choc-cosmos;
+$footer-fg: $mint-cream;
+
+/*-- scss:rules --*/
+.navbar-title {
+  padding: 0rem 0rem;
+  font-family: "Roboto Mono";
+}
+.navbar-collapse {
+  padding: 0rem 1.5rem;
+}
+.sidebar-tools-main .tools-wide {
+  display: block; 
+  margin-bottom: 10px;
+}
+.sidebar-navigation .quarto-navigation-tool {
+  opacity: 1;
+	color: $mint-cream;
+	text-align: end;
+	&:hover {
+	  opacity: 0.7;
+		transition: color .15s ease-in-out;
+	}
+}
+.sidebar-navigation .sidebar-item a, .nav-page .nav-page-text, .sidebar-navigation {
+  font-size: 1.67rem;
+  line-height: 2.5rem;
+  text-align: end;
+}
+.sidebar-navigation {
+	box-shadow: inset -8px 5px 10px 5px darken($cambridge-blue, 15%);
+}
+.sidebar-logo {
+	border-radius: 4rem; 
+	box-shadow: -8px 8px 10px darken($cambridge-blue, 15%);
+}
+.aa-Panel {
+  fill: blue;
+}
+.menu-text {
+  text-shadow: -4px 3px 5px darken($cambridge-blue, 15%)
+}
+.show {
+	box-shadow: none;
+}
+.active:hover {
+  opacity: 0.7;
+	transition: color .15s ease-in-out;
+}
+.quarto-secondary-nav .quarto-btn-toggle {
+	margin-right: 1rem;
+	&:hover {
+		background-color: $ash-grey;
+		color: $choc-cosmos;
+		border: none;
+		box-shadow: none;
+		transition: background-color .15s ease-in-out, color .15s ease-in-out;
+	} 
+}
+.btn {
+	background-color: $cambridge-blue;
+	box-shadow: none;
+	line-height: 0rem;
+	&:hover {
+		background-color: $ash-grey;
+		color: $choc-cosmos;
+		border: none;
+		box-shadow: none;
+		transition: background-color .15s ease-in-out, color .15s ease-in-out;
+	} 
+}
+.breadcrumb {
+	background-color: $cambridge-blue;
+	box-shadow: none;
+}
+.date-footer {
+  position: fixed;
+  bottom: 0;
+}
