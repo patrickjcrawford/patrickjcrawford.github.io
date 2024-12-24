@@ -1,0 +1,32 @@
+---
+title: "Page Not Found"
+---
+
+::: {.callout-important appearance="minimal"}
+The page you requested cannot be found (perhaps it was moved or renamed). Please try again or [contact me](mailto:pcrawfo6@gmu.edu) if you think this is an error.
+:::
+
+```{=html}
+<div class="no-row-height column-margin column-container">
+  <span class="margin-aside">
+    <p id="randomMessage" style="font-style: italic; font-size: 1rem; text-align: center;">
+    </p>
+  </span>
+</div>
+
+<script>
+    var messages = [
+        "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the Pursuit of F5.",
+        "Using this website is just a system of groping about in the dark.",
+        "The curious task of this webpage is to demonstrate to men how little they really know about what they imagine they can find.",
+        "In the long run, all links are dead.",
+        "An economist is someone who sees a website that doesn't work in practice and wonders if it wouldn't work in theory.",
+        "This website was led by an invisible hand to promote an end which was no part of my intention."
+    ];
+
+    window.onload = function() {
+        var randomIndex = Math.floor(Math.random() * messages.length);
+        document.getElementById('randomMessage').textContent = messages[randomIndex];
+    };
+</script>
+```
