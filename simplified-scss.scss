@@ -1,0 +1,152 @@
+/*-- scss:color --*/
+$mint-cream: #F7FFF7;
+$choc-cosmos: #590925;
+$cambridge-blue: #689689;
+$ash-grey: #B0CBC2;
+$cambridge-blue-dark: darken($cambridge-blue, 15%);
+
+/*-- scss:defaults --*/
+$body-text-align: justify !default;
+$code-block-bg-alpha: 0.1;
+$footer-bg: $choc-cosmos;
+$footer-fg: $mint-cream;
+
+/*-- scss:mixins --*/
+@mixin hover-transition {
+  &:hover {
+    opacity: 0.7;
+    transition: color 0.2s ease-in-out;
+  }
+}
+
+@mixin button-hover {
+  &:hover {
+    background-color: $brand-ash-grey;
+    color: $brand-choc-cosmos;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+}
+
+/*-- scss:rules --*/
+// Navigation
+.navbar {
+  &-title {
+    padding: 0;
+    font-family: "Roboto Slab";
+    font-size: 1.75rem;
+  }
+  
+  &-collapse {
+    padding: 0 1.5rem;
+  }
+}
+
+// Sidebar
+.sidebar {
+  &-tools-main .tools-wide {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  &-navigation {
+    box-shadow: inset -8px 5px 10px 5px $cambridge-blue-dark;
+    
+    .quarto-navigation-tool {
+      opacity: 1;
+      text-align: end;
+      @include hover-transition;
+    }
+    
+    .sidebar-item a,
+    .nav-page .nav-page-text,
+    & {
+      font-size: 1.67rem;
+      line-height: 2.5rem;
+      text-align: end;
+    }
+  }
+  
+  &-logo {
+    border-radius: 4rem;
+    box-shadow: -8px 8px 10px $cambridge-blue-dark;
+  }
+}
+
+// Components
+.aa-Panel {
+  fill: red;
+}
+
+.menu-text {
+  text-shadow: -4px 3px 5px $cambridge-blue-dark;
+}
+
+.show {
+  box-shadow: none;
+}
+
+.active {
+  @include hover-transition;
+}
+
+// Buttons
+.quarto-secondary-nav .quarto-btn-toggle {
+  margin-right: 1rem;
+  @include button-hover;
+}
+
+/* Hide the date in the title block */
+.quarto-title-block .quarto-date {
+  display: none;
+}
+
+.btn {
+  background-color: $brand-cambridge-blue;
+  box-shadow: none;
+  line-height: 0;
+  @include button-hover;
+}
+
+// Navigation elements
+.breadcrumb {
+  background-color: $brand-cambridge-blue;
+  box-shadow: none;
+}
+
+// Footer
+.date-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer {
+  background-color: $brand-choc-cosmos;
+}
+
+//
+
+header + p::first-letter,
+h1 + p::first-letter,
+h2 + p::first-letter,
+h3 + p::first-letter,
+h4 + p::first-letter,
+h5 + p::first-letter,
+h6 + p::first-letter,
+header + div > p:first-of-type::first-letter,
+h1 + div > p:first-of-type::first-letter,
+h2 + div > p:first-of-type::first-letter,
+h3 + div > p:first-of-type::first-letter,
+h4 + div > p:first-of-type::first-letter,
+h5 + div > p:first-of-type::first-letter,
+h6 + div > p:first-of-type::first-letter {
+  font-size: 2rem;
+  font-family: "UnifrakturMaguntia";
+  margin-right: 6px;
+  float: inline-start;
+  color: $brand-cambridge-blue;
+  text-decoration: underline;
+  text-decoration-color: $brand-china-rose;
+  text-underline-offset: 0.175em;
+}

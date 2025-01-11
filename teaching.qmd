@@ -11,11 +11,11 @@ Check back later
 
 ## Course 1
 
-[Fall 202X]{.aside}
+Microeconomics. [Fall 202X]{.aside}
 
 ## Course 2
 
-[Spring 202X]{.aside}
+Econometrics. [Spring 202X]{.aside}
 
 ```{r}
 #| echo: false

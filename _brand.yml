@@ -2,41 +2,22 @@ meta:
   name:
     full: Patrick Crawford
     short: PC
-#  link:
     home: https://patrickjcrawford.github.io/
-#    docs: 
     github: https://github.com/patrickjcrawford
     bluesky: https://bsky.app/profile/pjcrawford.bsky.social
-#    twitter: 
-#    linkedin: 
-#    facebook: 
-#  founded: 
+    twitter: https://twitter.com/_pcrawford
 
 logo: # Use .png or .svg
   images:
     icon:
       path: Headshot.jpg
       alt: "Company icon with abstract shapes"
-#    header:
-#      path: logos/header-logo.png
-#      alt: "Company name with logo"
-#    header-white:
-#      path: logos/header-logo-white.png
-#      alt: "Company name with logo in white"
-#    full:
-#      path: logos/full-logo.svg
-#      alt: "Full company logo with tagline"
-#  small: icon # favicons or mobile app icons
-#  medium: # website headers or navigation bars
-#    light: header
-#    dark: header-white
-#  large: full # title slides or marketing materials
 
 color:
   palette:
     # Main
     eerie-black: "#1A1A1A"          # black
-    mint-cream: "#F7FFF7"           # white
+    mint-cream: "#f7f7f0"           # white
     
     dark-green: "#16302B"           # dark green
     cambridge-blue: "#689689"       # medium green
@@ -85,13 +66,14 @@ typography:
       source: google
     - family: Roboto Slab
       source: google
-    - family: Lexend Exa
+    - family: UnifrakturMaguntia
+      source: google
+    - family: Jacquard 24
       source: google
 
   base: Roboto Slab
   headings:
     family: Roboto
-    weight: bold
   monospace:
     family: Roboto Mono
     background-color: "#d7e5e0" #lighter shade of ash-grey

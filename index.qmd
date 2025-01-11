@@ -2,8 +2,8 @@
 title: "About Me"
 ---
 
-I am an Economics PhD student at George Mason University. I received my Bachelors in Economics from GMU in 2019 and my Masters in 2021.
+I am an Economics PhD student at George Mason University. I received my Bachelors in Economics from GMU in 2019 and my Masters in 2021. [\*]{.aside}
 
-My research interests include political and applied microeconomics, historical political economy, growth, and institutional change. Of particular focus are periods of conflict and how individual behavior is shaped by those conditions. I am also interested in geospatial methods and applied econometrics. [ ]{.aside}
+My research interests include political and applied microeconomics, historical political economy, growth, and institutional change. Of particular focus are periods of conflict and how individual behavior is shaped by those conditions. I am also interested in geospatial methods and applied econometrics.
 
 ------------------------------------------------------------------------

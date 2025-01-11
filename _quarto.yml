@@ -5,17 +5,10 @@ project:
     - files/CV-Crawford.pdf
 
 editor: visual
-
 brand: _brand.yml
-
 highlight-style: breeze
-
 title-block-style: none
 
-date: last-modified
-date-format: long
-filters:
-  - get_monthyear.lua
 
 format:
   html:
@@ -27,13 +20,17 @@ format:
       gutter-width: 2rem
     code-copy: hover
     theme: 
-      light: [morph, brand, styles.scss] 
+      light: [morph, brand, simplified-scss.scss] 
 #      dark: 
-    css: styles.css
     toc: true
     self-contained: false
     #fontsize: 1.1rem
     reference-location: margin
+    include-in-header:
+      text: |
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=UnifrakturMaguntia&display=swap');
+        </style>
 
 website:
   title: "Patrick Crawford"
@@ -68,5 +65,5 @@ website:
       - text: "CV"
         file: "files/CV - Crawford.pdf"
   page-footer: |
-    Site last modified {{< meta month >}} {{< meta year >}} — © Patrick Crawford
+    Site last modified {{< now month >}} {{< now year >}} — © Patrick Crawford
   
