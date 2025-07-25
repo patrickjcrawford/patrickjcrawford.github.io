@@ -4,24 +4,30 @@ title: "Research"
 
 This is list of papers or projects I have or I am currently working on. Please reach out if you have any questions or requests and I will try my best to accommodate.
 
-## Publications
+<!-- ## Publications -->
 
-::: {.callout-caution appearance="minimal"}
+<!-- ::: {.callout-caution appearance="minimal"}
 ## Work in progress
 
 Check back later
-:::
+::: -->
 
 ## In Progress
 
-### Determinants of Revolt in Medieval Germany
+### Late Medieval Unrest in the Holy Roman Empire: Causes and Consequences
 
-Revolt was endemic in the later half of the middle ages across Europe. Following the Black Death, we can see an increase in revolutionary behavior over time. So far this paper find that poor harvests and reoccurences of plague combine to prime many areas for political unrest.
+Long-standing narratives of medieval unrest emphasize subsistence crises as primary causes of unrest. Using a newly constructed dataset of 491 episodes of unrest, I link annual, geolocated records of these events to climatic, demographic, and institutional variables to test the relative influence of structural and contingent factors on unrest likelihood. Results show that while environmental stress—particularly prolonged drought—modestly increases the probability of unrest, institutional characteristics such as public representation and guild inclusion play a more significant role. Cities with inclusive governance structures were more resilient to unrest, while guild-dominated regimes became increasingly prone to conflict over time. These findings challenge deterministic accounts of medieval rebellion and highlight the importance of local political structures in mediating collective action.
 
-[Draft](files/draft.pdf){.btn .btn-outline-warning} [Code](https://github.com/){.btn .btn-outline-warning}
+<!-- [Draft](files/draft.pdf){.btn .btn-outline-warning} [Code](https://github.com/){.btn .btn-outline-warning} -->
 
-### Public Opinion and the US Civil War
+### Did Newspaper Competition Promote Rebellion? The case of the 1837-38 Rebellions in Lower Canada
 
-This is a sketch of an idea. Lincoln issuing the Emancipation Proclamation should shift public opinion in the north toward abolitionism rather than preservation of the Union. [Currently drafting.]{.aside}
+This paper investigates the relationship between media market structure and political mobilization in the context of the Lower Canada Rebellion of 1837–38. We argue that the rebellion unfolded not only through military confrontation but also via a parallel conflict in the public sphere, as competing newspaper networks articulated constitutional grievances, mobilized supporters, and coordinated political action. Drawing on a new dataset of newspaper availability by subdistrict, merged with demographic and institutional measures, we test whether local media competitiveness—measured as the count of distinct newspaper titles available locally or in neighboring areas—predicts the intensity of both Patriote and Loyalist mobilization. Our empirical strategy exploits pre-rebellion measures of newspaper presence to mitigate reverse causality. Results show that greater newspaper competition is significantly associated with higher rates of both rebellion and counter-protest activity, independent of the partisan alignment of the press. Interaction terms further reveal that this effect is attenuated in subdistricts with higher student enrollment, suggesting that education moderates the mobilizing potential of the press. We interpret these findings as evidence that media competition increased political salience and exposure to cross-cutting cues, transforming latent discontent into active participation on both sides of the conflict. These results offer insight into the mechanisms by which communicative infrastructure shapes political behavior under conditions of institutional strain. [with [Vincent Geloso](https://vincentgeloso.com)]{.aside}
 
-[Draft](files/draft.pdf){.btn .btn-outline-warning} [Code](https://github.com/){.btn .btn-outline-warning}
+<!-- [Draft](files/draft.pdf){.btn .btn-outline-warning} [Code](https://github.com/){.btn .btn-outline-warning} -->
+
+### The Spectre of Slavery: Newspapers During the American Civil War
+
+Over the course of the 19th century, the press emerged as a critical arena for shaping political narratives. This study investigates how Civil War–era newspapers strategically amplified slavery-related discourse to influence electoral outcomes in Union states between 1860 and 1864. Drawing on over one million newspaper articles, the analysis employs topic modeling and cosine similarity measures to track the salience of slavery, abolition, and racial language in the months preceding congressional elections. Slavery-related discourse intensifies in the three months prior to elections, peaking one month before. Results indicate that greater similarity to slavery-related topics is associated with significantly higher Democratic vote share, particularly in the month prior to the election. Republican vote shares show no parallel effect or a muted inverse relationship. These findings suggest that newspapers not only reflected public sentiment but acted as partisan instruments, shaping electoral behavior by modulating the salience and framing of slavery-related issues. This contributes to the literature on political communication and media partisanship by demonstrating how ideological media coverage can influence voter alignment during periods of institutional upheaval.
+
+<!-- [Draft](files/draft.pdf){.btn .btn-outline-warning} [Code](https://github.com/){.btn .btn-outline-warning} -->

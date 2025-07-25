@@ -1,7 +1,7 @@
 /*-- scss:color --*/
-$mint-cream: #F7FFF7;
+$mint-cream:#f7fff7;
 $choc-cosmos: #590925;
-$cambridge-blue: #689689;
+$cambridge-blue:#689689;
 $ash-grey: #B0CBC2;
 $cambridge-blue-dark: darken($cambridge-blue, 15%);
 
@@ -127,26 +127,15 @@ $footer-fg: $mint-cream;
 
 //
 
-header + p::first-letter,
-h1 + p::first-letter,
-h2 + p::first-letter,
-h3 + p::first-letter,
-h4 + p::first-letter,
-h5 + p::first-letter,
-h6 + p::first-letter,
-header + div > p:first-of-type::first-letter,
-h1 + div > p:first-of-type::first-letter,
-h2 + div > p:first-of-type::first-letter,
-h3 + div > p:first-of-type::first-letter,
-h4 + div > p:first-of-type::first-letter,
-h5 + div > p:first-of-type::first-letter,
-h6 + div > p:first-of-type::first-letter {
-  font-size: 2rem;
+header::first-letter,
+header + div > h1:first-of-type::first-letter {
+  font-size: 3rem;
   font-family: "UnifrakturMaguntia";
-  margin-right: 6px;
-  float: inline-start;
-  color: $brand-cambridge-blue;
-  text-decoration: underline;
-  text-decoration-color: $brand-china-rose;
-  text-underline-offset: 0.175em;
+  margin-right: 5px;
+  float: none;
+  color: $brand-choc-cosmos; 
+  background-color: $brand-ash-grey;
+  padding: 0.1em 0.11em 0 0.11em; // Reduce bottom padding
+  margin: 0.1em 0.05em 0 0; // Top/right/bottom/left margins
+  border-radius: 0.5rem;
 }

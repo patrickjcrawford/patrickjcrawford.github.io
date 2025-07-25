@@ -9,6 +9,8 @@ brand: _brand.yml
 highlight-style: breeze
 title-block-style: none
 
+# filters:
+#   - auto-dark
 
 format:
   html:
@@ -43,7 +45,7 @@ website:
     type: textbox
   navbar:
     right:
-      - icon: twitter
+      - icon: bluesky
         href: https://bsky.app/profile/pjcrawford.bsky.social
       - icon: twitter-x
         href: https://twitter.com/_pcrawford

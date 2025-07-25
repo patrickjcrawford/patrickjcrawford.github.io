@@ -9,7 +9,7 @@ draft: true
 Check back later
 :::
 
-## Course 1
+<!-- ## Course 1
 
 Microeconomics. [Fall 202X]{.aside}
 
@@ -40,4 +40,4 @@ df2 <- df %>%
   mutate(c = a * x)
 
 knitr::kable(df2, align = "c")
-```
+``` -->
