@@ -18,12 +18,13 @@ format:
     grid:
       sidebar-width: 300px
       body-width: 900px
-#      margin-width: 300px
+      margin-width: 300px
       gutter-width: 2rem
     code-copy: hover
     theme: 
-      light: [morph, brand, simplified-scss.scss] 
-#      dark: 
+      light: [Flatly, brand, simplified-scss.scss] 
+      # dark: [Darkly, brand]#, simplified-scss.scss] 
+    respect-user-color-scheme: true
     toc: true
     self-contained: false
     #fontsize: 1.1rem
@@ -53,7 +54,7 @@ website:
         href: https://github.com/patrickjcrawford
       - icon: envelope-at
         href: mailto:pcrawfo6@gmu.edu
-    footer: "Testing"
+    # footer: "Testing"
   sidebar:
     fontsize: 2rem
     style: "floating"

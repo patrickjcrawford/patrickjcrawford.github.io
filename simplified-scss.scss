@@ -8,7 +8,8 @@ $cambridge-blue-dark: darken($cambridge-blue, 15%);
 /*-- scss:defaults --*/
 $body-text-align: justify !default;
 $code-block-bg-alpha: 0.1;
-$footer-bg: $choc-cosmos;
+$footer-bg: rgba(#000000, 0.0);
+;
 $footer-fg: $mint-cream;
 
 /*-- scss:mixins --*/
@@ -115,14 +116,40 @@ $footer-fg: $mint-cream;
   box-shadow: none;
 }
 
+//
+.header {
+  background-color: rgba($brand-dark-green, 0.25); // 20% opacity
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  // background: rgba(255, 255, 255, 0.2); /* semi-transparent */
+  backdrop-filter: blur(10px);          /* frosted glass effect */
+  -webkit-backdrop-filter: blur(10px);  /* Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 1000;
+}
+
 // Footer
 .date-footer {
   position: fixed;
   bottom: 0;
 }
 
+// Footer blur effect
 .footer {
-  background-color: $brand-choc-cosmos;
+  // background-color: rgba($brand-cambridge-blue, 0.33); // 20% opacity
+
+  // position: fixed;
+  // bottom: 0;
+  // width: 100%;
+  // padding: 1rem;
+  background: rgba($brand-cambridge-blue, 0.4); /* semi-transparent */
+  backdrop-filter: blur(7.5px);          /* frosted glass effect */
+  -webkit-backdrop-filter: blur(7.5px);  /* Safari support */
+  border-top: 1px solid rgba(245, 255, 245, 0.3);
+  z-index: 1000;
 }
 
 //
@@ -134,8 +161,10 @@ header + div > h1:first-of-type::first-letter {
   margin-right: 5px;
   float: none;
   color: $brand-choc-cosmos; 
-  background-color: $brand-ash-grey;
+  background-color: rgba($brand-ash-grey, 0.5);
+  // backdrop-filter: blur(10px);
   padding: 0.1em 0.11em 0 0.11em; // Reduce bottom padding
   margin: 0.1em 0.05em 0 0; // Top/right/bottom/left margins
   border-radius: 0.5rem;
+  // box-shadow: -3px 2px 4px $cambridge-blue-dark;
 }
