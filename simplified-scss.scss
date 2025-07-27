@@ -54,15 +54,7 @@ $code-block-bg-alpha: 0.1;
   margin-top: -0.75rem;
 }
 
-.navbar-brand:hover,
-.navbar-brand:focus,
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
-  color: $brand-light-green-grey !important;
-}
-
-// Navigation
+// Navbar styling
 .navbar {
   &-title {
     padding: 0;
@@ -74,6 +66,43 @@ $code-block-bg-alpha: 0.1;
     padding: 0 1.5rem;
     text-align: center;
   }
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: $brand-light-green-grey !important;
+}
+
+// Ensure horizontal layout and center alignment in collapsed mobile navbar
+.navbar-collapse {
+  // Styles for small screens (md and below)
+  @include media-breakpoint-down(lg) {
+    .navbar-nav.me-auto {
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: center !important;
+      width: 100%;
+      .nav-item.compact {
+        margin: 1rem;
+      }
+    }
+  }
+
+  // // Styles for medium screens and up (md and above)
+  // @include media-breakpoint-between(sm, lg) {
+  //   .navbar-nav.me-auto {
+  //     display: flex !important;
+  //     flex-direction: row !important;
+  //     justify-content: center !important;
+  //     width: 100%;
+  //     .nav-item.compact {
+  //       margin: 1rem;
+  //     }
+  //   }
+  // }
 }
 
 /* For all images in asides (including margin notes) */

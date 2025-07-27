@@ -48,7 +48,7 @@ website:
     type: overlay
   navbar:
     left:
-      - icon: bluesky
+      - icon: twitter #bluesky
         href: https://bsky.app/profile/pjcrawford.bsky.social
       - icon: twitter-x
         href: https://twitter.com/_pcrawford
