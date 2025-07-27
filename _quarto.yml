@@ -14,18 +14,20 @@ title-block-style: none
 
 format:
   html:
+    smooth-scroll: true
     #page-layout: full
     grid:
-      sidebar-width: 300px
+      # sidebar-width: 300px
       body-width: 900px
       margin-width: 300px
       gutter-width: 2rem
     code-copy: hover
     theme: 
-      light: [Flatly, brand, simplified-scss.scss] 
-      # dark: [Darkly, brand]#, simplified-scss.scss] 
-    respect-user-color-scheme: true
+      light: [flatly, brand, simplified-scss.scss] 
+      # dark: [Flatly, brand] #, simplified-scss.scss] 
+    # respect-user-color-scheme: true
     toc: true
+    toc-location: left
     self-contained: false
     #fontsize: 1.1rem
     reference-location: margin
@@ -42,10 +44,10 @@ website:
   open-graph: true
   site-url: https://patrickjcrawford.github.io/
   search:
-    location: sidebar
-    type: textbox
+    location: navbar
+    type: overlay
   navbar:
-    right:
+    left:
       - icon: bluesky
         href: https://bsky.app/profile/pjcrawford.bsky.social
       - icon: twitter-x
@@ -54,19 +56,24 @@ website:
         href: https://github.com/patrickjcrawford
       - icon: envelope-at
         href: mailto:pcrawfo6@gmu.edu
-    # footer: "Testing"
-  sidebar:
-    fontsize: 2rem
-    style: "floating"
-    background: secondary
-    logo: "images/Headshot.png"
-    contents:
+    right:
+      - text: "CV"
+        file: "files/CV - Crawford.pdf"
       - text: "Research"
         href: research.qmd
       - text: "Teaching"
         href: teaching.qmd
-      - text: "CV"
-        file: "files/CV - Crawford.pdf"
+  # sidebar:
+  #   fontsize: 2rem
+  #   style: "floating"
+  #   # background: secondary
+  #   contents:
+  #     - text: "Research"
+  #       href: research.qmd
+  #     - text: "Teaching"
+  #       href: teaching.qmd
+  #     - text: "CV"
+  #       file: "files/CV - Crawford.pdf"
   page-footer: |
-    Site last modified {{< now month >}} {{< now year >}} — © Patrick Crawford
+    {{< now year >}} © Patrick Crawford
   

@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Work in progress\n\n\n\nCheck back later"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About Me",
@@ -11,36 +18,20 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "This is list of papers or projects I have or I am currently working on. Please reach out if you have any questions or requests and I will try my best to accommodate.",
-    "crumbs": [
-      "Research"
-    ]
-  },
-  {
-    "objectID": "research.html#in-progress",
-    "href": "research.html#in-progress",
-    "title": "Research",
-    "section": "In Progress",
-    "text": "In Progress\nThe Effects of Bureacracy on Pandemic Outcomes \nReichshofrat oder Reichskammergericht? Court competition in the early modern Empire",
-    "crumbs": [
-      "Research"
-    ]
+    "text": "This is list of papers or projects I have or I am currently working on. Please reach out if you have any questions or requests and I will try my best to accommodate."
   },
   {
     "objectID": "research.html#working-papers",
     "href": "research.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\nLate Medieval Unrest in the Holy Roman Empire: Causes and Consequences \n\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nLong-standing narratives of medieval unrest emphasize subsistence crises as primary causes of unrest. Using a newly constructed dataset of 491 episodes of unrest, I link annual, geolocated records of these events to climatic, demographic, and institutional variables to test the relative influence of structural and contingent factors on unrest likelihood. Results show that while environmental stress—particularly prolonged drought—modestly increases the probability of unrest, institutional characteristics such as public representation and guild inclusion play a more significant role. Cities with inclusive governance structures were more resilient to unrest, while guild-dominated regimes became increasingly prone to conflict over time. These findings challenge deterministic accounts of medieval rebellion and highlight the importance of local political structures in mediating collective action.\n\n\n\n\nDid Newspaper Competition Promote Rebellion? The case of the 1837-38 Rebellions in Lower Canada \n\n\nwith Vincent Geloso\n\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nThis paper investigates the relationship between media market structure and political mobilization in the context of the Lower Canada Rebellion of 1837–38. We argue that the rebellion unfolded not only through military confrontation but also via a parallel conflict in the public sphere, as competing newspaper networks articulated constitutional grievances, mobilized supporters, and coordinated political action. Drawing on a new dataset of newspaper availability by subdistrict, merged with demographic and institutional measures, we test whether local media competitiveness—measured as the count of distinct newspaper titles available locally or in neighboring areas—predicts the intensity of both Patriote and Loyalist mobilization. Our empirical strategy exploits pre-rebellion measures of newspaper presence to mitigate reverse causality. Results show that greater newspaper competition is significantly associated with higher rates of both rebellion and counter-protest activity, independent of the partisan alignment of the press. Interaction terms further reveal that this effect is attenuated in subdistricts with higher student enrollment, suggesting that education moderates the mobilizing potential of the press. We interpret these findings as evidence that media competition increased political salience and exposure to cross-cutting cues, transforming latent discontent into active participation on both sides of the conflict. These results offer insight into the mechanisms by which communicative infrastructure shapes political behavior under conditions of institutional strain.\n\n\n\n\nThe Specter of Slavery: Newspapers During the American Civil War \n\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nOver the course of the 19th century, the press emerged as a critical arena for shaping political narratives. This study investigates how Civil War–era newspapers strategically amplified slavery-related discourse to influence electoral outcomes in Union states between 1860 and 1864. Drawing on over one million newspaper articles, the analysis employs topic modeling and cosine similarity measures to track the salience of slavery, abolition, and racial language in the months preceding congressional elections. Slavery-related discourse intensifies in the three months prior to elections, peaking one month before. Results indicate that greater similarity to slavery-related topics is associated with significantly higher Democratic vote share, particularly in the month prior to the election. Republican vote shares show no parallel effect or a muted inverse relationship. These findings suggest that newspapers not only reflected public sentiment but acted as partisan instruments, shaping electoral behavior by modulating the salience and framing of slavery-related issues. This contributes to the literature on political communication and media partisanship by demonstrating how ideological media coverage can influence voter alignment during periods of institutional upheaval.",
-    "crumbs": [
-      "Research"
-    ]
+    "text": "Working Papers\nLate Medieval Unrest in the Holy Roman Empire: Causes and Consequences\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nLong-standing narratives of medieval unrest emphasize subsistence crises as primary causes of unrest. Using a newly constructed dataset of 491 episodes of unrest, I link annual, geolocated records of these events to climatic, demographic, and institutional variables to test the relative influence of structural and contingent factors on unrest likelihood. Results show that while environmental stress—particularly prolonged drought—modestly increases the probability of unrest, institutional characteristics such as public representation and guild inclusion play a more significant role. Cities with inclusive governance structures were more resilient to unrest, while guild-dominated regimes became increasingly prone to conflict over time. These findings challenge deterministic accounts of medieval rebellion and highlight the importance of local political structures in mediating collective action.\n\n\n\nDid Newspaper Competition Promote Rebellion? The case of the 1837-38 Rebellions in Lower Canada \n\nwith Vincent Geloso\n\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nThis paper investigates the relationship between media market structure and political mobilization in the context of the Lower Canada Rebellion of 1837–38. We argue that the rebellion unfolded not only through military confrontation but also via a parallel conflict in the public sphere, as competing newspaper networks articulated constitutional grievances, mobilized supporters, and coordinated political action. Drawing on a new dataset of newspaper availability by subdistrict, merged with demographic and institutional measures, we test whether local media competitiveness—measured as the count of distinct newspaper titles available locally or in neighboring areas—predicts the intensity of both Patriote and Loyalist mobilization. Our empirical strategy exploits pre-rebellion measures of newspaper presence to mitigate reverse causality. Results show that greater newspaper competition is significantly associated with higher rates of both rebellion and counter-protest activity, independent of the partisan alignment of the press. Interaction terms further reveal that this effect is attenuated in subdistricts with higher student enrollment, suggesting that education moderates the mobilizing potential of the press. We interpret these findings as evidence that media competition increased political salience and exposure to cross-cutting cues, transforming latent discontent into active participation on both sides of the conflict. These results offer insight into the mechanisms by which communicative infrastructure shapes political behavior under conditions of institutional strain.\n\n\n\nThe Specter of Slavery: Newspapers During the American Civil War \n\n\n\n\n\n\nAbstract\n\n\n\n\n\nOver the course of the 19th century, the press emerged as a critical arena for shaping political narratives. This study investigates how Civil War–era newspapers strategically amplified slavery-related discourse to influence electoral outcomes in Union states between 1860 and 1864. Drawing on over one million newspaper articles, the analysis employs topic modeling and cosine similarity measures to track the salience of slavery, abolition, and racial language in the months preceding congressional elections. Slavery-related discourse intensifies in the three months prior to elections, peaking one month before. Results indicate that greater similarity to slavery-related topics is associated with significantly higher Democratic vote share, particularly in the month prior to the election. Republican vote shares show no parallel effect or a muted inverse relationship. These findings suggest that newspapers not only reflected public sentiment but acted as partisan instruments, shaping electoral behavior by modulating the salience and framing of slavery-related issues. This contributes to the literature on political communication and media partisanship by demonstrating how ideological media coverage can influence voter alignment during periods of institutional upheaval."
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Summary",
-    "section": "",
-    "text": "Patrick Crawford\n\n\n\n\n\nSummary\nPatrick Crawford\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\nEducation\n\n\n\nExperience\nHello"
+    "objectID": "research.html#in-progress",
+    "href": "research.html#in-progress",
+    "title": "Research",
+    "section": "In Progress",
+    "text": "In Progress\nThe Effects of Bureacracy on Pandemic Outcomes \nReichshofrat oder Reichskammergericht? Court competition in the Early Modern Empire \nPolitical Autonomy and Long-Run Urban Growth in Germany"
   }
 ]

@@ -2,83 +2,84 @@ meta:
   name:
     full: Patrick Crawford
     short: PC
+  link:
     home: https://patrickjcrawford.github.io/
     github: https://github.com/patrickjcrawford
     bluesky: https://bsky.app/profile/pjcrawford.bsky.social
     twitter: https://twitter.com/_pcrawford
     email: mailto:pcrawfo6@gmu.edu
+  description: "Patrick Crawford's personal website, showcasing his research, teaching, and professional interests in economics."
 
-logo: # Use .png or .svg
-  images:
-    icon:
-      path: Headshot.jpg
-      alt: "Company icon with abstract shapes"
+# logo: # Use .png or .svg
+#   images:
+#     icon:
+#       path: Headshot.jpg
 
 color:
   palette:
     # Main
-    eerie-black: "#1A1A1A"          # black
-    mint-cream: "#f7f7f0"           # white
-    
-    dark-green: "#16302B"           # dark green
-    cambridge-blue: "#689689"       # medium green
-    ash-grey: "#B0CBC2"             # light green
-    
-    choc-cosmos: "#590925"          # dark pink/red
-    quinacridone-magenta: "#923257" # medium pink/red
-    china-rose: "#9B4C69"           # light pink/red
-    
-    # Accent
-    pumpkin: "#FF6F20"              # orange
-    gold: "#C8AD55"                 # gold
-    naples-yellow: "#FFE66D"        # yellow
-    khaki: "#C4B4A4"                # tan
+    off-black: "#1A1A1A"
+    off-white: "#f7f7f0"
+    dark-green: "#314F40"
+    medium-green-grey: "#5A8567"
+    light-green-grey: "#A3B4A9"
+    bg-green-grey: "#DDE5DC"
+    burgundy: "#590925"
+    light-burgundy: "#AF3257" 
+    pink: "#E7729D"
 
-  foreground: eerie-black
+    # Other
+    gray-200: "#ecf0f1"
+    gray-700: "#7b8a8b"
+
+    # Accent
+    # pumpkin: "#FF9C20"              # orange
+    # gold: "#C8AD55"                 # gold
+    # naples-yellow: "#FFE66D"        # yellow
+    # khaki: "#C4B4A4"                # tan
+
+  foreground: off-black
   # The main text color. Typically will be close to black and must have high contrast with the background color.
-  background: mint-cream
+  background: off-white
   # The main background color. Tyically will be close to white and must have high contrast with the foreground color.
-  primary: dark-green #quinacridone-magenta 
+  primary: dark-green 
   # The primary accent color, used for hyperlinks, active states, and primary action buttons.
-  secondary: cambridge-blue 
+  secondary: burgundy
   # The secondary accent color, often used for lighter text or disabled states.
-  tertiary: ash-grey
+  tertiary: light-green-grey
   # The tertiary accent color, used for hover states, accents, and wells.
-  success: naples-yellow
+  success: teal
   # The color used for positive or successful actions and information.
-  info: khaki
+  info: cyan
   # The color used for neutral or informational actions and information.
-  warning: gold
+  warning: yellow
   # The color used for warning or cautionary actions and information.
-  danger: pumpkin
+  danger: orange
   # The color used for errors, dangerous actions, or negative information.
-  light: china-rose
+  light: pink
   # A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
-  dark: choc-cosmos
+  dark: red
   # A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
 
 typography:
   fonts:
-    - family: Rubik
-      source: google
     - family: Roboto
-      source: google
+      source: bunny
     - family: Roboto Mono
-      source: google
+      source: bunny
     - family: Roboto Slab
-      source: google
+      source: bunny
     - family: UnifrakturMaguntia
-      source: google
-    - family: Jacquard 24
-      source: google
+      source: bunny
 
   base: Roboto Slab
   headings:
     family: Roboto
+    color: dark-green
   monospace:
     family: Roboto Mono
-    background-color: "#d7e5e0" #lighter shade of ash-grey
+    background-color: bg-green-grey
   link:
-    color: choc-cosmos
+    color: light-burgundy
 
 # Visit https://posit-dev.github.io/brand-yml/brand/ for full element options
