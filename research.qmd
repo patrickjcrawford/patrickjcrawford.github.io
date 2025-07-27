@@ -4,6 +4,7 @@ title: "Research"
 
 This is list of papers or projects I have or I am currently working on. Please reach out if you have any questions or requests and I will try my best to accommodate.
 
+```{=html}
 <!-- ## Publications
 
 ::: {.callout-caution appearance="minimal"}
@@ -11,10 +12,11 @@ This is list of papers or projects I have or I am currently working on. Please r
 
 Check back later
 ::: -->
+```
 
 ## Working Papers
 
-**Late Medieval Unrest in the Holy Roman Empire: Causes and Consequences** 
+**Late Medieval Unrest in the Holy Roman Empire: Causes and Consequences**
 
 ::: {.callout collapse="true" title="Abstract"}
 Long-standing narratives of medieval unrest emphasize subsistence crises as primary causes of unrest. Using a newly constructed dataset of 491 episodes of unrest, I link annual, geolocated records of these events to climatic, demographic, and institutional variables to test the relative influence of structural and contingent factors on unrest likelihood. Results show that while environmental stress—particularly prolonged drought—modestly increases the probability of unrest, institutional characteristics such as public representation and guild inclusion play a more significant role. Cities with inclusive governance structures were more resilient to unrest, while guild-dominated regimes became increasingly prone to conflict over time. These findings challenge deterministic accounts of medieval rebellion and highlight the importance of local political structures in mediating collective action.
@@ -22,7 +24,7 @@ Long-standing narratives of medieval unrest emphasize subsistence crises as prim
 
 **Did Newspaper Competition Promote Rebellion? The case of the 1837-38 Rebellions in Lower Canada** <!-- [[Draft](files/draft.pdf){.btn} [Code](https://github.com/){.btn}]{.aside} -->
 
-:::  {.coauthor}
+::: coauthor
 with [Vincent Geloso](https://vincentgeloso.com)
 :::
 
@@ -40,6 +42,6 @@ Over the course of the 19th century, the press emerged as a critical arena for s
 
 **The Effects of Bureacracy on Pandemic Outcomes** <!-- with Geloso and Malik -->
 
-***Reichshofrat oder Reichskammergericht?* Court competition in the Early Modern Empire** <!-- potentially with Colin -->
+***Reichshofrat oder Reichskammergericht?*** **Court competition in the Early Modern Empire** <!-- potentially with Colin -->
 
 **Political Autonomy and Long-Run Urban Growth in Germany**

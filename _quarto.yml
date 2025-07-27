@@ -58,7 +58,7 @@ website:
         href: mailto:pcrawfo6@gmu.edu
     right:
       - text: "CV"
-        file: "files/CV - Crawford.pdf"
+        file: cv.qmd #"files/CV - Crawford.pdf"
       - text: "Research"
         href: research.qmd
       - text: "Teaching"

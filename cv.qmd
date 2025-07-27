@@ -1,78 +1,98 @@
 ---
-author: Patrick Crawford
-# title
-format:
-  classic-cv-pdf: default
-cvcolor: 16302B #without `#`
-cvfont: palatino #texlive fonts like raleway,fetamont,gillius,comfortaa
-cvwebsite: patrickjcrawford.github.io
-cvmeta:
-  - title: H
-    left: H
-    right: Fairfax, VA
-  - title: Fields
-    left: Applied Microeconomics, Growth, Historical Political Economy
-    right: patrick.314.c@gmail.com
-  - title: Skills
-    left: R, Python, LaTeX, QGIS
-    right: pcrawfo6@gmu.edu
-execute:
-  echo: false
+title: "PATRICK J. CRAWFORD"
+subtitle: "[patrickjcrawford.github.io](https://patrickjcrawford.github.io) $\\diamond$ [pcrawfo6@gmu.edu](mailto:pcrawfo6@gmu.edu)"
+
+format: 
+    pdf:
+      documentclass: article
+      output-file: "CV-Crawford.pdf"
+      papersize: letter
+      margin-top: 0.75in
+      margin-bottom: 1in
+      margin-left: 0.75in
+      margin-right: 0.75in
+      fontfamily: libertine
+      urlcolor: ForestGreen
+      classoptions:
+        - '`xcolor={x11names}`{=latex}'
+      include-in-header: 
+        text: |
+          \usepackage{titlesec}
+          \usepackage{titling}
+          \setlength{\droptitle}{-1.5cm} 
+          \pretitle{\begin{center}\Huge\bfseries}
+          
+          \titleformat{\section}[hang]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+          \titlespacing*{\section}{0pt}{15pt plus 2pt minus 2pt}{6pt plus 1pt minus 1pt}
+
+          \titleformat{\subsection}[hang]{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+          \titlespacing*{\subsection}{0pt}{10pt plus 2pt minus 1pt}{4pt plus 1pt minus 1pt}
 ---
 
-```{r}
-#| label: cvevents
-cvevents <- function(tbl, when, what, where, details) {
+\vspace{-1.5cm}
 
-    command_start <- "\\cvevent"
+# EDUCATION
 
-    res <- paste0(
-        command_start, "{", tbl[[when]], "}", 
-        "{", tbl[[what]], "}",
-        "{", tbl[[where]], "}")
-    
-    tbl[[details]] <- sapply(tbl[[details]], function(x) paste0("{", x, "}", collapse = ","))
-    res <- paste0(res, "{",tbl[[details]],"}")
+## George Mason University
 
-    cat(res, sep = "\n")
-}
-```
+Ph.D., Economics \hfill exp. 2026
 
-# Summary
+M.A., Economics \hfill 2021
 
-{{< meta author >}}
+B.A., Economics \hfill 2019
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+# EXPERIENCE
 
-# Education
+## Graduate Lecturer \hfill Fall 2021---Summer 2024
 
-```{r}
-#| label: education
-#| output: asis
-tibble::tribble(
-    ~degree, ~uni, ~loc, ~dates, ~details,
-    "Ph.D. in Computer Science", "University of Konstanz", "Konstanz, Germany", "Nov. 2012 - Sep. 2015", c("Thesis: A Positional Approach for Network Centrality", "Developed and implemented new methods to assess network centrality"),
-    "Diploma in Business Mathematics", "KIT", "Karlsruhe, Germany", "Sep. 2006 - Jul. 2012", c("Thesis: Modularity Maximization", "Implementation and comparison of different clustering algorithms using Matlab")
-) |>
-    cvevents(when = "dates", what = "degree", where = "loc", details = "details")
-```
+George Mason University \hfill Fairfax, VA
 
-# Experience
+-   Principles of Macroeconomics
+-   Intermediate Microeconomics
+-   Economics of Developming Areas
+-   International Economic Policy
 
-```{r}
-#| label: experience
-#| output: asis
-tibble::tribble(
-    ~role, ~institution, ~dates, ~details, ~tasks,
-    "Team Lead", "GESIS - Leibniz Institute for the Social Sciences", "Mar. 2022 - Present",
-    "Transparent Social Analytics, Department of Computational Social Science", c("Coordination of a project to build an Open Science platform with reusable code and tutorials", "Research on Open Science Practices", "Implementation of tools to enhance reproducibility and facilitate research with digital data in R"),
-    "Presidential Fellow", "University of Manchester", "Sep. 2018 - Feb. 2022",
-    "Sociology Department", c("Research on Disinformation on Social Media", "Analyses of large scale and unstructured data sets with R, Python and Bash"),
-    "Post Doctoral Researcher", "ETH Zurich", "Nov. 2017 - Aug. 2018", "Chair of Social Networks", c("Developing new methods to analyze social networks", "Implementing methods in libraries", "Gathering and analyzing large datsets from Social Media APIs"),
-    "Post Doctoral Researcher", "University of Konstanz", "Oct. 2015 - Oct. 2017", "Department of Computer & Information Science", c("Developing new methods to analyze social networks", "Implementing methods in libraries", "Webscraping and harmonizing a large corpus of football data"),
-    "Ph.D. Candidate", "University of Konstanz", "Nov. 2012 - Sep. 2015", "Department of Computer & Information Science", c("Developing new methods to analyze social networks", "Implementing methods in libraries")
-) |>
-    cvevents(when = "dates", what = "role", where = "institution", details = "tasks")
-```
+## Research Assistant \hfill March 2022---May 2024
 
-Hello
+Dr. Mark Koyama, Department of Economics \hfill Fairfax, VA
+
+# RESEARCH
+
+## Working Papers
+
+Late Medieval Unrest in the Holy Roman Empire: Causes and Consequences \hfill Drafting
+
+Did Newspaper Competition Promote Rebellion? The Case of the 1837-38 Rebellions in Lower Canada \hfill Drafting
+
+\vspace{-0.6em} *(with Vincent Geloso)*
+
+The Specter of Slavery: Newspapers During the American Civil War \hfill Drafting
+
+## In Progress
+
+The Effects of Bureaucracy on Pandemic Outcomes
+
+*Reichshofrat oder Reichskammergericht?* Court competition in the Early Modern Empire
+
+Political Autonomy and Long-Run Urban Growth in Germany
+
+## Research Interests
+
+-   Economic History
+-   Political Economy of Conflict and Violence
+-   Growth and Development
+-   Text Analysis
+
+<!-- # CONFERENCES
+
+Southern Economic Association Annual Meeting \hfill November 2022
+
+Southern Economic Association Annual Meeting \hfill November 2023
+
+Southern Economic Association Annual Meeting \hfill November 2024 -->
+
+# SKILLS
+
+## Languages
+
+R (Web Scraping, GIS), Python (Text Analysis), QGIS, \LaTeX
