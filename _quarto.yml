@@ -4,7 +4,6 @@ project:
   resources: 
     - files/CV-Crawford.pdf
 
-editor: visual
 brand: _brand.yml
 highlight-style: breeze
 title-block-style: none

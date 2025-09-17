@@ -4,6 +4,12 @@ title: "About Me"
 
 I am an Economics PhD student at George Mason University. I received my Bachelors in Economics from GMU in 2019 and my Masters in 2021. [![](images\Headshot.png)]{.aside}
 
-My research interests include political and applied microeconomics, historical political economy, growth, and institutional change. Of particular focus are periods of conflict and how individual behavior is shaped by those conditions. I work primarily in R, and have experience with geospatial analysis, text-as-data methods, and historical data digitization. I have taught undergraduate courses as a graduate lecturer at George Mason University, including microeconomics, macroeconomics, and development.
+My research interests include political and applied microeconomics, historical political economy, growth, and institutional change. Of particular focus are periods of conflict and how individual behavior is shaped by those conditions. I work primarily in R, and have experience with geospatial analysis, text-as-data methods, and historical data digitization. I have taught undergraduate courses as a graduate lecturer at George Mason University, including microeconomics, macroeconomics, and international development.
 
-------------------------------------------------------------------------
+I hope that my work will help build a greater understanding of the social and political questions of the past and today. Outside of academia, I enjoy reading sci-fi/fantasy, playing the latest video games, and traveling with my partner.
+
+<!-- ------------------------------------------------------------------------ -->
+
+![](images/BANNER-Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry.png){.fullwidth}
+
+<!-- ## Recent Updates -->

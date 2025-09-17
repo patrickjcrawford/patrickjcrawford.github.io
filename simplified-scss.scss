@@ -25,6 +25,14 @@ $code-block-bg-alpha: 0.1;
 }
 
 /*-- scss:rules --*/
+// Image banner styling
+
+.quarto-layout-cell {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
 // Button styling
 .btn {
   background-color: $brand-burgundy;
