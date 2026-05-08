@@ -22,7 +22,7 @@ Check back later
 Long-standing narratives of medieval unrest emphasize subsistence crises as primary causes of unrest. Using a newly constructed dataset of 491 episodes of unrest, I link annual, geolocated records of these events to climatic, demographic, and institutional variables to test the relative influence of structural and contingent factors on unrest likelihood. Results show that while environmental stress—particularly prolonged drought—modestly increases the probability of unrest, institutional characteristics such as public representation and guild inclusion play a more significant role. Cities with inclusive governance structures were more resilient to unrest, while guild-dominated regimes became increasingly prone to conflict over time. These findings challenge deterministic accounts of medieval rebellion and highlight the importance of local political structures in mediating collective action.
 :::
 
-**Did Newspaper Competition Promote Rebellion? The Case of the 1837-38 Rebellions in Quebec** [[Draft](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602){.btn} [Appendix](https://github.com/patrickjcrawford/LC-Newspapers/blob/master/_output/scripts/LC-Rebellion_Appendix.pdf){.btn}]{.aside}
+**Did Newspaper Competition Promote Rebellion? The Case of the 1837-38 Rebellions in Quebec** [[Draft](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602){.btn} [Appendix](files/LC-Rebellion_Appendix.pdf){.btn}]{.aside}
 
 ::: coauthor
 with [Vincent Geloso](https://vincentgeloso.com)
