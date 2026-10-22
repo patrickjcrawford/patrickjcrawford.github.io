@@ -22,7 +22,7 @@ Check back later
 I construct two linked datasets for the Holy Roman Empire, 1300--1520: a geolocated catalog of popular unrest and an annual panel of city-council representation, matched at city-year resolution across 306 cities. I ask whether unrest rises with wet-dry severity and whether it rises in the years institutions changed. Contrary to prior work's positive drought association, documented unrest tends to be more frequent in wetter years, and organized actors carry the pattern. The divergence from the closest published study survives changes in estimator, functional form, and event definition; sample scope and a recording artifact remain open. Guild representation's apparent associations with unrest come from the years in which representation changed, often as unrest's outcome; where guilds already held seats, severe drought went with less unrest. Burgher representation shows no association but precedes guild gains. Complaints are mostly political and fiscal. Every association here is descriptive.
 :::
 
-**Did Newspaper Competition Promote Rebellion? The Case of the 1837-38 Rebellions in Quebec** [[Draft](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602){.btn} [Appendix](files/LC-Rebellion_Appendix.pdf){.btn}]{.aside}
+**Did Newspaper Competition Promote Rebellion? The Case of the 1837-38 Rebellions in Quebec** [[Draft](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602){.btn} [Appendix](files/LC-Rebellion_Appendix.pdf){.btn} [ProMarket](https://www.promarket.org/2026/07/31/how-newspaper-competition-fueled-quebecs-1837-rebellion/){.btn}]{.aside}
 
 ::: coauthor
 with [Vincent Geloso](https://vincentgeloso.com)

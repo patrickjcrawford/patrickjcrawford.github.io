@@ -1,0 +1,126 @@
+---
+title: "PATRICK J. CRAWFORD"
+subtitle: "[pcrawfo6@gmu.edu](mailto:pcrawfo6@gmu.edu) $\\diamond$ (703) 901-4769 $\\diamond$ [patrickjcrawford.github.io](https://patrickjcrawford.github.io)"
+
+format: 
+  pdf:
+    documentclass: article
+    output-file: "CV_Crawford.pdf"
+    papersize: letter
+    margin-top: 0.75in
+    margin-bottom: 1in
+    margin-left: 0.75in
+    margin-right: 0.75in
+    fontfamily: libertine
+    link-citations: true
+    linkcolor: medium-green-grey
+    citecolor: medium-green-grey
+    urlcolor: medium-green-grey
+    classoptions:
+      - '`xcolor={x11names}`{=latex}'
+    include-in-header:
+      text: |
+        \usepackage{setspace, xcolor, lscape, dcolumn, multirow, amsmath}
+        \definecolor{medium-green-grey}{HTML}{5A8567} 
+        
+        \usepackage{titlesec}
+        \usepackage{titling}
+        \setlength{\droptitle}{-1.5cm} 
+        \pretitle{\begin{center}\Huge\bfseries}
+        
+        \titleformat{\section}[hang]{\normalfont\Large\bfseries}{\thesection}{1em}{\MakeUppercase}
+        \titlespacing*{\section}{0pt}{15pt plus 2pt minus 2pt}{6pt plus 1pt minus 1pt}
+        
+        \titleformat{\subsection}[hang]{\normalfont\large\bfseries}{\thesubsection}{1em}{\MakeUppercase}
+        \titlespacing*{\subsection}{0pt}{10pt plus 2pt minus 1pt}{4pt plus 1pt minus 1pt}
+---
+
+\vspace{-1.5cm}
+
+# Education
+
+## George Mason University
+
+Ph.D., Economics \hfill exp. May 2027
+
+\vspace{-0.6em} *Dissertation:* Three Essays in the Economic History of Conflict and Political Mobilization
+
+\vspace{-0.6em} *Advisor:* Noel Johnson $\diamond$ *Committee:* Vincent Geloso, Thomas Stratmann
+
+M.A., Economics \hfill 2021
+
+B.A., Economics \hfill 2019
+
+# Experience
+
+## Graduate Lecturer \hfill Fall 2021---Summer 2024
+
+George Mason University \hfill Fairfax, VA
+
+-   ECON 104: Principles of Macroeconomics \hfill Summer 2024
+-   ECON 306: Intermediate Microeconomics \hfill Fall 2023
+-   ECON 360: Economics of Developing Areas \hfill Summer 2022 & Spring 2023
+-   ECON 385: International Economic Policy \hfill Fall 2021 & Spring 2022
+
+## Research Assistant \hfill March 2022---May 2024
+
+Dr. Mark Koyama, GMU Department of Economics \hfill Fairfax, VA
+
+# Research
+
+## Job Market Paper
+
+[Late Medieval Unrest in the Holy Roman Empire: Climate, Institutions, and Documented Unrest](https://patrickjcrawford.github.io/files/Crawford_HRE-Unrest_Draft.pdf)
+
+```{=latex}
+\vspace{-0.4em}
+\begin{small}
+```
+*Abstract:* I construct two linked datasets for the Holy Roman Empire, 1300--1520: a geolocated catalog of popular unrest and an annual panel of city-council representation across 306 cities. Contrary to prior work's positive drought association, documented unrest tends to be more frequent in wetter years. Guild representation's apparent associations with unrest come from the years in which representation changed, often as unrest's outcome; where guilds already held seats, severe drought went with less unrest.
+```{=latex}
+\end{small}
+```
+
+## Working Papers
+
+[Did Newspaper Competition Promote Rebellion? The Case of the 1837--38 Rebellions in Quebec](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602)
+
+\vspace{-0.6em} *(with Vincent Geloso)*
+
+The Specter of Slavery: Election Timing and the Campaign Agenda in the Party Press, 1860--1864
+
+## In Progress
+
+The Effects of Bureaucracy on Pandemic Outcomes
+
+Council or Court? Judicial Competition in Early Modern Germany
+
+Political Autonomy and Long-Run Urban Growth in Germany
+
+## Research Interests
+
+-   Economic History
+-   Political Economy of Conflict and Violence
+-   Growth and Development
+-   Media Economics
+-   Text Analysis
+
+# Presentations
+
+Markets & Society Conference \hfill 2026
+
+CSQIEP Mentorship Conference \hfill 2026
+
+Southern Economic Association Annual Meeting \hfill 2022, 2023, 2024, 2025
+
+# Public Writing
+
+["How Newspaper Competition Fueled Quebec's 1837 Rebellion,"](https://www.promarket.org/2026/07/31/how-newspaper-competition-fueled-quebecs-1837-rebellion/) *ProMarket* (Stigler Center, University of Chicago) \hfill July 2026
+
+# Skills
+
+**Programming:** R, Python, QGIS, \LaTeX, Quarto, Git
+
+**Methods:** Spatial econometrics and GIS; text-as-data (topic models, supervised classifiers, LLM-assisted annotation with human validation); historical data construction (digitization, web scraping, geocoding, record linkage)
+
+**Languages:** English; Spanish (reading and writing)

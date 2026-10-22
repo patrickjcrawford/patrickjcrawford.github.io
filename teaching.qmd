@@ -1,9 +1,0 @@
----
-title: "Teaching"
----
-
-::: {.callout-caution appearance="minimal"}
-## Work in progress
-
-Check back later
-:::

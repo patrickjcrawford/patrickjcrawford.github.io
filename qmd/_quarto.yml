@@ -1,8 +1,8 @@
 project:
   type: website
-  output-dir: docs
-  resources: 
-    - files/CV-Crawford.pdf
+  output-dir: ../docs
+  resources:
+    - .nojekyll
 
 brand: _brand.yml
 highlight-style: breeze
@@ -57,7 +57,7 @@ website:
         href: mailto:pcrawfo6@gmu.edu
     right:
       - text: "CV"
-        file: cv.qmd #"files/CV - Crawford.pdf"
+        file: files/cv.qmd
       - text: "Research"
         href: research.qmd
       - text: "Teaching"
