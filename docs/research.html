@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +43,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-40245bba9644b8fa0feaaa89002b359b.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f63c875ccafef573932f7800a4c57e38.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-40245bba9644b8fa0feaaa89002b359b.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b072200e193a35ac4eb7907435bac0c4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-ea7bd6fcf355bbad4d51bec3e5fb9f76.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b072200e193a35ac4eb7907435bac0c4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-954ee35690b004fcd9ce9b7071c1f2b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-0b82ddd771436b32c1f46fc0606aae8b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-954ee35690b004fcd9ce9b7071c1f2b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e26fd14e65d61f9e332ed0fe588d2de5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a04f5e11845f24dc6299a62507fc8f81.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e26fd14e65d61f9e332ed0fe588d2de5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -182,7 +185,7 @@ Check back later
 ::: -->
 <section id="working-papers" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<p><strong>Late Medieval Unrest in the Holy Roman Empire: Causes and Consequences</strong></p>
+<div class="page-columns page-full"><p><strong>Late Medieval Unrest in the Holy Roman Empire: Climate, Institutions, and Documented Unrest</strong> </p><div class="no-row-height column-margin column-container"><span class="margin-aside"><a href="files/Crawford_HRE-Unrest_Draft.pdf" class="btn">Draft</a></span></div></div>
 <div class="callout callout-style-simple callout-none no-icon callout-titled" title="Abstract">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -195,7 +198,7 @@ Check back later
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Long-standing narratives of medieval unrest emphasize subsistence crises as primary causes of unrest. Using a newly constructed dataset of 491 episodes of unrest, I link annual, geolocated records of these events to climatic, demographic, and institutional variables to test the relative influence of structural and contingent factors on unrest likelihood. Results show that while environmental stress—particularly prolonged drought—modestly increases the probability of unrest, institutional characteristics such as public representation and guild inclusion play a more significant role. Cities with inclusive governance structures were more resilient to unrest, while guild-dominated regimes became increasingly prone to conflict over time. These findings challenge deterministic accounts of medieval rebellion and highlight the importance of local political structures in mediating collective action.</p>
+<p>I construct two linked datasets for the Holy Roman Empire, 1300–1520: a geolocated catalog of popular unrest and an annual panel of city-council representation, matched at city-year resolution across 306 cities. I ask whether unrest rises with wet-dry severity and whether it rises in the years institutions changed. Contrary to prior work’s positive drought association, documented unrest tends to be more frequent in wetter years, and organized actors carry the pattern. The divergence from the closest published study survives changes in estimator, functional form, and event definition; sample scope and a recording artifact remain open. Guild representation’s apparent associations with unrest come from the years in which representation changed, often as unrest’s outcome; where guilds already held seats, severe drought went with less unrest. Burgher representation shows no association but precedes guild gains. Complaints are mostly political and fiscal. Every association here is descriptive.</p>
 </div>
 </div>
 </div>
@@ -215,7 +218,7 @@ Check back later
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>We investigate the relationship between media competitiveness and political mobilization during the Quebec Rebellion of 1837–38. We argue that the rebellion was shaped by newspaper coordination of political action. Drawing on a new spatial dataset of newspaper agents, we test whether local media competitiveness predicts the intensity of rebel mobilization, independent of the partisan alignment of the press. The effect is magnified in areas where seigneurial (i.e., feudal) tenure persisted, suggesting a complementarity between institutionally concentrated grievance and competitive press exposure. Adding newly created human capital controls—school enrollment and literacy—does not attenuate the competition effect. Globally, media competition transformed latent discontent into active participation in the conflict. These results offer insight into the economics of rebellions and uprisings.</p>
+<p>We study the relationship between media competition and political mobilization during the Quebec Rebellion of 1837–38. Using a new spatial dataset of newspaper agents, we test whether local press competition increased rebel activity independently of newspaper ideology. We find that greater media competition strongly predicts mobilization, especially in areas where seigneurial tenure persisted, suggesting that concentrated grievances became politically activated through competitive information networks. The results remain robust after controlling for literacy and school enrollment. Overall, competitive media transformed latent discontent into active rebelliousness.</p>
 </div>
 </div>
 </div>
