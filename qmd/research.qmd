@@ -16,13 +16,13 @@ Check back later
 
 ## Working Papers
 
-**Late Medieval Unrest in the Holy Roman Empire: Climate, Institutions, and Documented Unrest** [[Draft](files/Crawford_HRE-Unrest_Draft.pdf){.btn}]{.aside}
+**Late Medieval Unrest in the Holy Roman Empire: Climate, Institutions, and Documented Unrest** [[Draft](files/Crawford_HRE-Unrest.pdf){.btn}]{.aside}
 
 ::: {.callout collapse="true" title="Abstract"}
-I construct two linked datasets for the Holy Roman Empire, 1300--1520: a geolocated catalog of popular unrest and an annual panel of city-council representation, matched at city-year resolution across 306 cities. I ask whether unrest rises with wet-dry severity and whether it rises in the years institutions changed. Contrary to prior work's positive drought association, documented unrest tends to be more frequent in wetter years, and organized actors carry the pattern. The divergence from the closest published study survives changes in estimator, functional form, and event definition; sample scope and a recording artifact remain open. Guild representation's apparent associations with unrest come from the years in which representation changed, often as unrest's outcome; where guilds already held seats, severe drought went with less unrest. Burgher representation shows no association but precedes guild gains. Complaints are mostly political and fiscal. Every association here is descriptive.
+I link a geolocated, event-level catalog of popular unrest to an annual panel of city-council representation across 301 cities of the Holy Roman Empire, 1300--1520, dating unrest against institutional change and climate shocks. Guild representation's apparent associations with unrest come from the years in which representation changed, often in the course of unrest; coded at each century's start, the same panel makes guild seats appear to lower unrest. Away from those years neither guild nor burgher representation shows a clear association with unrest. Contrary to the closest published study, documented unrest is, if anything, more frequent in wetter years. The divergence lies in the catalogs, which barely overlap; on that study's own data, its drought and muting estimates for outbreaks in the Empire are not significant once a year's conflict starts may share a shock. Every association is descriptive.
 :::
 
-**Did Newspaper Competition Promote Rebellion? The Case of the 1837-38 Rebellions in Quebec** [[Draft](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602){.btn} [Appendix](files/LC-Rebellion_Appendix.pdf){.btn} [ProMarket](https://www.promarket.org/2026/07/31/how-newspaper-competition-fueled-quebecs-1837-rebellion/){.btn}]{.aside}
+**Did Newspaper Competition Promote Rebellion? The Case of the 1837-38 Rebellions in Quebec** [[Draft](files/Crawford_LC-Newspapers.pdf){.btn} [Appendix](files/Crawford_LC-Newspapers_Appendix.pdf){.btn} [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602){.btn}]{.aside}
 
 ::: coauthor
 with [Vincent Geloso](https://vincentgeloso.com)
@@ -32,10 +32,14 @@ with [Vincent Geloso](https://vincentgeloso.com)
 We study the relationship between media competition and political mobilization during the Quebec Rebellion of 1837--38. Using a new spatial dataset of newspaper agents, we test whether local press competition increased rebel activity independently of newspaper ideology. We find that greater media competition strongly predicts mobilization, especially in areas where seigneurial tenure persisted, suggesting that concentrated grievances became politically activated through competitive information networks. The results remain robust after controlling for literacy and school enrollment. Overall, competitive media transformed latent discontent into active rebelliousness.
 :::
 
-**The Specter of Slavery: Newspapers During the American Civil War** <!-- [[Draft](files/draft.pdf){.btn .btn-outline-warning} [Code](https://github.com/){.btn .btn-outline-warning}]{.aside} -->
+::: press
+*ProMarket*: [How Newspaper Competition Fueled Quebec's 1837 Rebellion](https://www.promarket.org/2026/07/31/how-newspaper-competition-fueled-quebecs-1837-rebellion/)
+:::
+
+**The Specter of Slavery: Election Timing and the Campaign Agenda in the Party Press, 1860–1864** [[Draft](files/Crawford_Civil-War-News.pdf){.btn}]{.aside}
 
 ::: {.callout collapse="true" title="Abstract"}
-Over the course of the 19th century, the press emerged as a critical arena for shaping political narratives. This study investigates how Civil War-era newspapers strategically amplified slavery-related discourse to influence electoral outcomes in Union states between 1860 and 1864. Drawing on over one million newspaper articles, the analysis employs topic modeling and cosine similarity measures to track the salience of slavery, abolition, and racial language in the months preceding congressional elections. Slavery-related discourse intensifies in the three months prior to elections, peaking one month before. Results indicate that greater similarity to slavery-related topics is associated with significantly higher Democratic vote share, particularly in the month prior to the election. Republican vote shares show no parallel effect or a muted inverse relationship. These findings suggest that newspapers not only reflected public sentiment but acted as partisan instruments, shaping electoral behavior by modulating the salience and framing of slavery-related issues. This contributes to the literature on political communication and media partisanship by demonstrating how ideological media coverage can influence voter alignment during periods of institutional upheaval.
+Was slavery's place in the Northern press of 1860 set by the election campaign or by the news? A keyword dictionary applied to six million newspaper articles traces slavery coverage around the staggered congressional elections of 1860--1864. In the 1860 cycle, coverage fell after the vote by about two-fifths of its normal level, net of trend, along with campaign and tariff coverage, while the rest of the non-campaign agenda held steady. The drop followed each state's own election date rather than the national calendar. It did not recur in 1862 and was smaller and not significant in 1864, when the campaigns turned on the war rather than on slavery's extension. Within cities, Democratic papers used the vocabulary of racial equality more often than their Republican rivals, most clearly in 1864. Slavery behaved as campaign material at the margin of a persistent debate that did not follow the vote.
 :::
 
 ## In Progress

@@ -62,6 +62,18 @@ $code-block-bg-alpha: 0.1;
   margin-top: -0.75rem;
 }
 
+// Press coverage / supplementary links shown below an abstract
+.press {
+  font-size: 0.8rem;
+  margin-top: -0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+
+  p {
+    margin-bottom: 0.15rem;
+  }
+}
+
 // Navbar styling
 .navbar {
   &-title {

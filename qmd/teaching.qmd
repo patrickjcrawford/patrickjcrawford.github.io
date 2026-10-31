@@ -4,27 +4,29 @@ title: "Teaching"
 
 Theory disciplines the evidence, the evidence tests the theory, and students learn best when they work with both. In my courses, students read the research behind the textbook and then make a case of their own---taking a country's development record, for instance, and defending a policy response before the class.
 
-## Courses Taught
+<!-- Here you will find links to course materials as well as studyguides, homework, old exams. -->
 
-I was the instructor of record for four undergraduate courses at George Mason University from 2021 to 2024, in person and online, designing the syllabus, assignments, and exams for each.
+<!-- ## Current Courses -->
 
-**ECON 104: Principles of Macroeconomics** [Summer 2024 · Online; Summer 2023 · In person]{.aside}
+## Old Courses
+
+**ECON 104: Principles of Macroeconomics** [Summer 2024; Summer 2023]{.aside}
 
 An introduction to thinking like an economist about the whole economy, built around a few big questions: why some nations are rich and others poor, what the Federal Reserve does, and why economies go through business cycles.
 
-**ECON 306: Intermediate Microeconomics** [Fall 2023 · Online]{.aside}
+**ECON 306: Intermediate Microeconomics** [Fall 2023]{.aside}
 
 Price theory at the intermediate level: consumer choice and demand, production and costs, and how market structure shapes prices and output, practiced through weekly problem sets with an emphasis on graphical analysis.
 
-**ECON 360: Economics of Developing Areas** [Spring 2023, Fall 2022, Summer 2022 · In person]{.aside}
+**ECON 360: Economics of Developing Areas** [Spring 2023, Fall 2022, Summer 2022]{.aside}
 
 Why are some countries rich and others poor? The course moves from Malthus and Solow through poverty traps, the aid debate, health and human capital, institutions, culture, state capacity, and conflict, pairing Easterly, Banerjee and Duflo, and Koyama and Rubin with research by North, Nunn, Dell, and others. Students write discussion essays and present a country case.
 
-**ECON 385: International Economic Policy** [Spring 2022, Fall 2021 · In person]{.aside}
+**ECON 385: International Economic Policy** [Spring 2022, Fall 2021]{.aside}
 
 The economic way of thinking applied to trade and international finance, including introductory microeconomics and game theory, with historical and current evidence on the consequences of trade, protectionism, and conflict. Taught for non-major students.
 
-## Courses I Would Like to Teach
+## I Would Like to Teach
 
 I am prepared to teach principles and intermediate micro- and macroeconomics, undergraduate econometrics, economic development, and economic history---with notice. I would also like to build courses of my own:
 
@@ -34,7 +36,7 @@ I am prepared to teach principles and intermediate micro- and macroeconomics, un
 How did the world become rich? This course follows the economy from the Malthusian world through the Industrial Revolution and the Great Divergence, taught through the datasets economic historians have built. Each unit puts a historical dataset in students' hands, and the course closes with students testing a published claim against the data. It can run as a survey or as a deep dive into a single era, such as the late medieval economy or the American Civil War.
 ::: -->
 
-**AI-Assisted Econometrics** (or **Text as Data**)
+**Econometrics and Computer Data Analysis** (potentially **AI-Assisted**, or narrowly **Text as Data**)
 
 <!-- ::: {.callout collapse="true" title="Description"}
 Applied econometrics taught the way economists now work: with AI coding assistants that write, check, and document code, and with the econometric judgment kept the student's own. Students reproduce published results from the original data with an assistant, verify each step against a version they build by hand, and write up where the assistant helped and where it went wrong. A Text as Data variant applies the same approach to building measures from documents, using digitized newspaper corpora from my research.

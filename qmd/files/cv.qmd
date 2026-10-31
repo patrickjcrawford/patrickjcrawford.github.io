@@ -72,24 +72,24 @@ Dr. Mark Koyama, Mercatus Center at George Mason University \hfill Arlington, VA
 
 ## Job Market Paper
 
-[Late Medieval Unrest in the Holy Roman Empire: Climate, Institutions, and Documented Unrest](https://patrickjcrawford.github.io/files/Crawford_HRE-Unrest_Draft.pdf)
+[Late Medieval Unrest in the Holy Roman Empire: Climate, Institutions, and Documented Unrest](https://patrickjcrawford.github.io/files/Crawford_HRE-Unrest.pdf)
 
 ```{=latex}
 \vspace{-0.4em}
 \begin{small}
 ```
-*Abstract:* I construct two linked datasets for the Holy Roman Empire, 1300--1520: a geolocated catalog of popular unrest and an annual panel of city-council representation across 306 cities. Contrary to prior work's positive drought association, documented unrest tends to be more frequent in wetter years. Guild representation's apparent associations with unrest come from the years in which representation changed, often as unrest's outcome; where guilds already held seats, severe drought went with less unrest.
+*Abstract:* I link a geolocated, event-level catalog of popular unrest to an annual panel of city-council representation across 301 cities of the Holy Roman Empire, 1300--1520. Guild representation's apparent associations with unrest come from the years in which representation changed, often in the course of unrest; away from those years, neither guild nor burgher representation shows a clear association with unrest. Contrary to the closest published study, documented unrest is, if anything, more frequent in wetter years.
 ```{=latex}
 \end{small}
 ```
 
 ## Working Papers
 
-[Did Newspaper Competition Promote Rebellion? The Case of the 1837--38 Rebellions in Quebec](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602)
+[Did Newspaper Competition Promote Rebellion? The Case of the 1837--38 Rebellions in Quebec](https://patrickjcrawford.github.io/files/Crawford_LC-Newspapers.pdf)
 
 \vspace{-0.6em} *(with Vincent Geloso)*
 
-The Specter of Slavery: Election Timing and the Campaign Agenda in the Party Press, 1860--1864
+[The Specter of Slavery: Election Timing and the Campaign Agenda in the Party Press, 1860--1864](https://patrickjcrawford.github.io/files/Crawford_Civil-War-News.pdf)
 
 ## In Progress
 
