@@ -3,9 +3,6 @@ project:
   output-dir: ../docs
   resources:
     - .nojekyll
-    # old URLs already sent out (CVs, SSRN); kept as copies of the current versions
-    - files/Crawford_HRE-Unrest_Draft.pdf
-    - files/LC-Rebellion_Appendix.pdf
 
 brand: _brand.yml
 highlight-style: breeze
