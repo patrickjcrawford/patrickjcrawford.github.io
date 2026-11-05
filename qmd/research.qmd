@@ -2,7 +2,7 @@
 title: "Research"
 ---
 
-This is list of papers or projects I have or I am currently working on. Please reach out if you have any questions or requests and I will try my best to accommodate.
+This is a list of papers or projects I have or I am currently working on. Please reach out if you have any questions or requests and I will try my best to accommodate.
 
 ```{=html}
 <!-- ## Publications
@@ -16,7 +16,7 @@ Check back later
 
 ## Working Papers
 
-**Late Medieval Unrest in the Holy Roman Empire: Climate, Institutions, and Documented Unrest** [[Draft](files/Crawford_HRE-Unrest.pdf){.btn}]{.aside}
+**Late Medieval Unrest in the Holy Roman Empire: Climate, Institutions, and Documented Unrest** [[Draft](files/Crawford_HRE-Unrest.pdf){.btn} [Appendix](files/Crawford_HRE-Unrest_Appendix.pdf){.btn}]{.aside}
 
 ::: {.callout collapse="true" title="Abstract"}
 I link a geolocated, event-level catalog of popular unrest to an annual panel of city-council representation across 301 cities of the Holy Roman Empire, 1300--1520, dating unrest against institutional change and climate shocks. Guild representation's apparent associations with unrest come from the years in which representation changed, often in the course of unrest; the same panel, coded at each century's start, makes guild seats appear to lower unrest. Away from those years neither guild nor burgher representation shows a clear association with unrest. Contrary to the closest published study, documented unrest is, if anything, more frequent in wetter years. The divergence lies in the catalogs, which barely overlap; on that study's own data, neither the association of drought with the outbreak of conflict in the Empire nor its muting by elected councils is significant once standard errors are clustered by city and by year. Every association is descriptive.
@@ -29,14 +29,14 @@ with [Vincent Geloso](https://vincentgeloso.com)
 :::
 
 ::: {.callout collapse="true" title="Abstract"}
-We study the relationship between media competition and political mobilization during the Quebec Rebellion of 1837--38. Using a new spatial dataset of newspaper agents, we test whether local press competition increased rebel activity independently of newspaper ideology. We find that greater media competition strongly predicts mobilization, especially in areas where seigneurial tenure persisted, suggesting that concentrated grievances became politically activated through competitive information networks. The results remain robust after controlling for literacy and school enrollment. Overall, competitive media transformed latent discontent into active rebelliousness.
+We study the relationship between media competition and political mobilization during the Quebec Rebellions of 1837--38. Using a new spatial dataset of newspaper agents, we test whether local press competition increased rebel activity independently of newspaper ideology. We find that greater media competition predicts mobilization in larger communities, especially in areas where seigneurial tenure persisted, suggesting that concentrated grievances became politically activated through competitive information networks. The results remain robust after controlling for literacy and school enrollment. Competitive media appear to have helped turn latent discontent into active rebelliousness.
 :::
 
 ::: press
 *ProMarket*: [How Newspaper Competition Fueled Quebec's 1837 Rebellion](https://www.promarket.org/2026/07/31/how-newspaper-competition-fueled-quebecs-1837-rebellion/)
 :::
 
-**The Specter of Slavery: Election Timing and the Campaign Agenda in the Party Press, 1860–1864** [[Draft](files/Crawford_Civil-War-News.pdf){.btn}]{.aside}
+**The Specter of Slavery: Election Timing and the Campaign Agenda in the Party Press, 1860–1864** [[Draft](files/Crawford_Civil-War-News.pdf){.btn} [Appendix](files/Crawford_Civil-War-News_Appendix.pdf){.btn}]{.aside}
 
 ::: {.callout collapse="true" title="Abstract"}
 Was slavery's place in the Northern press of 1860 set by the election campaign or by the news? A keyword dictionary applied to six million newspaper articles traces slavery coverage around the staggered congressional elections of 1860--1864. In the 1860 cycle, coverage fell after the vote by about two-fifths of its normal level, net of trend, along with campaign and tariff coverage, while the rest of the non-campaign agenda held steady. The drop followed each state's own election date rather than the national calendar. It did not recur in 1862 and was smaller and not significant in 1864, when the campaigns turned on the war rather than on slavery's extension. Within cities, Democratic papers used the vocabulary of racial equality more often than their Republican rivals, most clearly in 1864. Slavery behaved as campaign material at the margin of a persistent debate that did not follow the vote.
@@ -44,8 +44,18 @@ Was slavery's place in the Northern press of 1860 set by the election campaign o
 
 ## In Progress
 
-**The Effects of Bureacracy on Pandemic Outcomes** <!-- with Geloso and Malik -->
+**The Effects of Bureaucracy on Pandemic Outcomes**
+
+::: coauthor
+with [Vincent Geloso](https://vincentgeloso.com) and [Malik Altaf Hussain](https://malikahussain.github.io/)
+:::
 
 **Council or Court? Judicial Competition in Early Modern Germany** <!-- potentially with Colin -->
 
 **Political Autonomy and Long-Run Urban Growth in Germany**
+
+**Eroding the Narrative: Military Bloggers, Mobilization, and Information Asymmetries in Wartime Autocracy**
+
+::: coauthor
+with [Patrick Fitzsimmons](https://www.patrubenfitz.com/) and [Konstantin Zhukov](https://www.konstantinzhukovphd.me/)
+:::

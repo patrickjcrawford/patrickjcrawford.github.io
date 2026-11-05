@@ -64,9 +64,7 @@ George Mason University \hfill Fairfax, VA
 
 ## Research Assistant \hfill March 2022---May 2024
 
-Dr. Mark Koyama, Mercatus Center at George Mason University \hfill Arlington, VA
-
--   Collected historical data on castles and military engagements in late medieval and early modern England
+Dr. Mark Koyama, Mercatus Center at George Mason University \hfill Fairfax, VA
 
 # Research
 
@@ -87,7 +85,7 @@ Dr. Mark Koyama, Mercatus Center at George Mason University \hfill Arlington, VA
 
 [Did Newspaper Competition Promote Rebellion? The Case of the 1837--38 Rebellions in Quebec](https://patrickjcrawford.github.io/files/Crawford_LC-Newspapers.pdf)
 
-\vspace{-0.6em} *(with Vincent Geloso)*
+\vspace{-0.6em} *(with Vincent Geloso)* $\diamond$ [SSRN Working Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6675602)
 
 [The Specter of Slavery: Election Timing and the Campaign Agenda in the Party Press, 1860--1864](https://patrickjcrawford.github.io/files/Crawford_Civil-War-News.pdf)
 
@@ -95,17 +93,21 @@ Dr. Mark Koyama, Mercatus Center at George Mason University \hfill Arlington, VA
 
 The Effects of Bureaucracy on Pandemic Outcomes
 
+\vspace{-0.6em} *(with Vincent Geloso and Malik Altaf Hussain)*
+
 Council or Court? Judicial Competition in Early Modern Germany
 
 Political Autonomy and Long-Run Urban Growth in Germany
 
-## Research Interests
+Eroding the Narrative: Military Bloggers, Mobilization, and Information Asymmetries in Wartime Autocracy
 
--   Economic History
--   Political Economy of Conflict and Violence
--   Growth and Development
--   Media Economics
--   Text Analysis
+\vspace{-0.6em} *(with Patrick Fitzsimmons and Konstantin Zhukov)*
+
+## Research Fields
+
+**Primary:** Economic History; Political Economy of Conflict; Institutional Economics
+
+**Secondary:** Media Economics; Urban Economics; Growth and Development
 
 # Presentations
 
@@ -126,3 +128,27 @@ Southern Economic Association Annual Meeting \hfill 2022, 2023, 2024, 2025
 **Methods:** Spatial econometrics and GIS; text-as-data (topic models, supervised classifiers, LLM-assisted annotation with human validation); historical data construction (digitization, web scraping, geocoding, record linkage)
 
 **Languages:** English; Spanish (reading and writing)
+
+# References
+
+```{=latex}
+\noindent
+\begin{minipage}[t]{0.33\textwidth}
+\textbf{Noel D. Johnson} (Advisor)\\
+Professor of Economics\\
+George Mason University\\
+\href{mailto:njohnsol@gmu.edu}{njohnsol@gmu.edu}
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+\textbf{Mark Koyama}\\
+Professor of Political Economy\\
+Hamilton School, University of Florida\\
+\href{mailto:mark.koyama@gmail.com}{mark.koyama@gmail.com}
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+\textbf{Vincent Geloso}\\
+Associate Professor of Economics\\
+George Mason University\\
+\href{mailto:vgeloso@gmu.edu}{vgeloso@gmu.edu}
+\end{minipage}
+```
