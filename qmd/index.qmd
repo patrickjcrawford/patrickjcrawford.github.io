@@ -12,6 +12,6 @@ I hope that my work will help build a greater understanding of the social and po
 
 <!-- ------------------------------------------------------------------------ -->
 
-![](images/BANNER-Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry.png){.fullwidth}
+---
 
 <!-- ## Recent Updates -->
